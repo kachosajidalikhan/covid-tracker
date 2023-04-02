@@ -1,0 +1,54 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+.detail-div{
+    width: 160px;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px 2px darkslateblue;
+    border-radius: 10px;
+
+}
+.selecter-main{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    
+}
+.selecter-tag{
+    display: flex;
+    justify-content: center;
+    width: 37.5vw;
+}
+.selecter-tag > select{
+    width: 50%;
+    height: 28px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.M-1{
+border-bottom: 8px solid blue;
+}
+.M-2{
+    border-bottom: 8px solid green;
+}
+.M-3{
+    border-bottom: 8px solid red;
+}
+.text{
+    font-family: cursive;
+    font-weight: 100;
+    font-size: medium;
+}
+.num-text{
+    font-weight: bold;
+    font-family: initial;
+    font-size: large;
+    color: red;
+}
